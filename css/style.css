@@ -1,0 +1,131 @@
+body{
+    font-family: OCR A Std, monospace;
+    background-color: #ffffff;
+    color: #F5EFED;
+    font-size: 16px; 
+    width: 80%;
+}
+
+
+.contenedor{
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 500px;
+    margin: 25px auto;
+    background: radial-gradient(ellipse at top,#ff6522, #9a0000);
+    opacity: 82%;
+}
+
+header h1{
+    color:#000000;
+    font-size:42px;
+    font-style: italic;
+    width:40%;
+    margin:10px 37%;
+    padding:15px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-text{
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffc423;
+    font-weight: bold;
+    background-color:transparent ;
+}
+
+.input-text:hover{
+    padding: 10px;
+    transition: 1s;
+}
+
+.input-text::placeholder, .mensaje::placeholder {
+    color:#000;
+    font-weight: bolder;
+}
+
+.mensaje-contenedor{
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: transparent;
+}
+.mensaje{
+    color: #c0b212;
+    margin: 14px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url("../img/comp-unscreen.gif");
+    background-color: rgba(1, 20, 39, 0.0);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+}
+.mensaje-contenedor .copiar{
+    margin: 7px 20%;
+}
+.aviso{
+    margin: 0 50px;
+    color: #ffc423;
+    font-style:italic;
+    font-weight:bold;
+    font-size: 20px;
+}
+.botones button, .botones copy{
+    font-family:  Bradley Hand, cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 15px;
+    gap: 8px;
+    width: 180px;
+    height: 50px;
+    background: #E6DC13;
+    border-radius: 24px;
+    text-transform: uppercase;
+}
+.botones button:hover, .copiar{
+    background: #fd9902;
+    padding: 10px;
+    transition: .3s;
+}
+
+ul{
+    list-style: none;
+}
+
+.links{
+    margin-bottom: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.links ul li{
+    font-size:20px;
+    color: #fff;
+    font-weight: bolder;
+}
+.links ul li a{
+    color: #ffc423;
+    font-weight: bolder;
+    text-shadow: -2px -2px 1px #000;
+    text-decoration: none;
+}
+.links ul li a:hover{
+    color: #e7ca7f;
+}
