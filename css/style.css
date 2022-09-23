@@ -12,15 +12,15 @@ body{
     border-radius: 30px;
     box-shadow: 500px;
     margin: 25px auto;
-    background: radial-gradient(ellipse at top,#ff6522, #9a0000);
+    background: linear-gradient(90deg, #cf5926 10%, #e19245);
     opacity: 82%;
 }
 
 header h1{
-    color: #521304 ;
+    color:  #3c1f0a;
     font-size:44px;
-    width:40%;
-    text-align: center;
+    width:50%;
+    text-align: left;
     margin:10px auto;
     
 }
@@ -49,7 +49,8 @@ main{
 }
 
 .input-text::placeholder, .mensaje::placeholder {
-    color:#a4816b ;
+    color:#ffffff;
+    opacity:30%;
     font-weight: bolder;
 }
 
@@ -79,17 +80,18 @@ main{
 }
 .aviso{
     margin: 0 50px;
-    color: #ffc423;
+    color:  #dec63f ;
     font-style:italic;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: 20px;
 }
 .botones button, .botones copy{
     font-family:  Bradley Hand, cursive;
     font-weight: bold;
     font-size: 15px;
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 16px;
     padding: 15px;
     gap: 8px;
     width: 180px;
@@ -117,8 +119,9 @@ ul{
 }
 
 .links ul li{
-    font-size:20px;
+    font-size:18px;
     color: #fff;
+    opacity:85%;
     font-weight: bolder;
 }
 .links ul li a{
@@ -130,3 +133,4 @@ ul{
 .links ul li a:hover{
     color: #e7ca7f;
 }
+/* pagina responsiva para pantallas pequeñas /*
