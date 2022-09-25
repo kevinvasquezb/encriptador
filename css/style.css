@@ -18,7 +18,7 @@ body{
 
 header h1{
     color:  #3c1f0a;
-    font-size:44px;
+    font-size:40px;
     width:50%;
     text-align: left;
     margin:10px auto;
@@ -133,4 +133,60 @@ ul{
 .links ul li a:hover{
     color: #e7ca7f;
 }
-/* pagina responsiva para pantallas pequeñas /*
+/* pagina responsiva para pantallas pequeñas  */
+
+
+@media screen and (max-width: 480px){
+    
+    header h1{
+        font-size:35px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+    .input-text{
+        width: 60%;
+        margin: 20px auto;
+        margin-bottom: -10px;
+    }
+    .aviso{
+        width: 70%;
+        text-align: center;
+        margin-left: 67px;
+    }
+    .mensaje-contenedor{
+        width: 60%;
+        margin: 30px auto;
+    }
+
+
+
+
+    .botones{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .botones.copy{
+        margin-right: 0px;
+    }
+
+    .aviso{
+        margin-right: 50px;
+    }
+
+    .mensaje{
+        width: 100%;
+    }
+
+}
