@@ -104,6 +104,11 @@ main{
     padding: 10px;
     transition: .3s;
 }
+.copiar:hover{
+    background: #fd9902;
+    padding: 10px;
+    transition: .3s;
+}
 
 ul{
     list-style: none;
@@ -119,7 +124,7 @@ ul{
 
 .links ul li{
     font-size:18px;
-    color: #fff;
+    color: rgba(244, 235, 235, 0.826);
     opacity:85%;
     font-weight: bolder;
 }
@@ -133,8 +138,6 @@ ul{
     color: #e7ca7f;
 }
 /* pagina responsiva para pantallas pequeñas  */
-
-
 @media screen and (max-width: 480px){
     
     header h1{
@@ -151,18 +154,22 @@ ul{
         align-content: center;
     }
     .input-text{
-        width: 87%;
+        width: 80%;
         margin: 20px auto;
         margin-bottom: -10px;
     }
     .aviso{
         width: 90%;
         text-align: center;
-        margin-left: 13px;
+        margin-left: 18px;
     }
     .mensaje-contenedor{
-        width: 87%;
+        width: 75%;
         margin: 30px auto;
+    }
+    .mensaje{
+        width:98%;
+        margin-left:0px;
     }
     .botones, .botones-copy{
         display: flex;
@@ -170,19 +177,15 @@ ul{
         text-align: center;
         justify-content: center;
         align-items: center;
-        
     }
 
-    .botones.copy{
-        margin-right: 0px;
+    .botones button, .copiar{
+        width: 250px;
+        height: 50px;
+        margin: 10px auto;
     }
-
-    .aviso{
-        margin-right: 50px;
+    .links ul li{
+        text-align: left;
+        margin-bottom: 10px;
     }
-
-    .mensaje{
-        width: 100%;
-    }
-
 }
