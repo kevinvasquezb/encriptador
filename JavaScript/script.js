@@ -46,6 +46,6 @@ function copiar(){
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value);
     mensaje.value = "";
-    alert("Texto copiado con éxito");
+    swal("Texto copiado","","success");
 
 }
