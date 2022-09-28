@@ -147,6 +147,7 @@ ul{
         font-size:35px;
         text-align: left;
         margin-left: 20px;
+
     }
     main{
         display: grid;
@@ -183,7 +184,7 @@ ul{
     }
 
     .botones button, .copiar{
-        width: 250px;
+        width: 200px;
         height: 50px;
         margin: 10px auto;
     }
