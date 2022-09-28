@@ -6,12 +6,15 @@ function btnEncriptar(){
     mensaje.value = textoEncriptado;
     mensaje.style.backgroundImage = "none"
     inputTexto.value = ""
+    swal("Texto encriptado","","success");
+    
 }
 
 function btnDesencriptar(){
     const textoDesencriptado = desencriptar(inputTexto.value);
     mensaje.value = textoDesencriptado;
     inputTexto.value = ""
+    swal("Texto desencriptado","","success");
 }
 
 // funcion de encriptador 
@@ -49,3 +52,4 @@ function copiar(){
     swal("Texto copiado","","success");
 
 }
+
