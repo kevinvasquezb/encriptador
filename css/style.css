@@ -73,6 +73,10 @@ main{
     background-position: center;
     background-size: 340px;
 }
+
+
+
+
 .mensaje-contenedor .copiar{
     margin: 0 25%;
 }
@@ -125,15 +129,16 @@ ul{
     color: rgba(244, 235, 235, 0.826);
     opacity:85%;
     font-weight: bolder;
+    margin-bottom: 5px;
 }
 .links ul li a{
-    color: #ffc423;
+    color: black;
     font-weight: bolder;
-    text-shadow: -2px -2px 1px #000;
     text-decoration: none;
 }
 .links ul li a:hover{
-    color: #e7ca7f;
+    color: #ffc423;
+    text-decoration: underline;
 }
 /* pagina responsiva para pantallas pequeñas  */
 @media screen and (max-width: 480px){
