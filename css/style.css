@@ -12,7 +12,7 @@ body{
     border-radius: 30px;
     box-shadow: 500px;
     margin: 25px auto;
-    background: linear-gradient(90deg, #cf5926 10%, #e19245);
+    background: linear-gradient(180deg, #cf5926 10%, #e19245);
     opacity: 82%;
 }
 
@@ -62,7 +62,7 @@ main{
     background-color: transparent;
 }
 .mensaje{
-    color: #c0b212;
+    color: #ffc423;
     margin: 14px;
     border: 0px solid transparent;
     border-radius: 10px;
